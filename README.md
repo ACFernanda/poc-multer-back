@@ -16,3 +16,16 @@
    - Salvar no seu próprio backend: terá que garantir backup;
    - Na configuração do multer, ao inves de salvar no disco, salvaríamos para um buffer, em memória, e faríamos upload do buffer para o provedor. Para acessar o arquivo, ao invés de acessar pelo servidor, acessaríamos pela URL que esse provedor nos daria.
    - Buffer: armazena dados temporariamente - mantem as informações salvas antes de serem usadas.
+
+3. Alternativas ao Amazon S3:
+
+   - Linode Object Storage
+   - DigitalOcean Spaces
+   - DreamObjects
+   - Wasabi
+   - Vultr Object Storage
+   - Backblaze B2
+   - Azure Blob Storage
+   - Google Cloud Storage
+   - Rackspace Cloud Files
+   - IBM Cloud Object Storage
